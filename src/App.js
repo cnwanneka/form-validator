@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import FormValidator from './components/FormValidator'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      
+    <div className='App'>
+      <FormValidator />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
